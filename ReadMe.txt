@@ -8,8 +8,7 @@ Object “blosc4sections~.mxo” only works in Max 6.1 or higher. It is not comp
 ============================
 
 How to install:
-- Expand "BLOscForMax.zip" 
-- Start Max and add the folder “BLOscForMax” to your file search path.
+- Start Max and add the folder “BLOsc4SectionsForMax” to your file search path.
 (From Menu “Options” > “File Preferences” > “+” button at lower left corner of the window)
 - Open “blosc4sections~ demo.maxpat” to play demo
 

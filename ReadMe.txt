@@ -1,6 +1,7 @@
 blosc4sections~.mxo
 (Band-limited oscillator with 4 sections)
 
+============================
 
 Requirements:
 Object “blosc4sections~.mxo” only works in Max 6.1 or higher. It is not compatible with earlier versions of Max.

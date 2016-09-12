@@ -1,3 +1,6 @@
+The mechanism of this object is explained in “Additive synthesis with band-limited oscillator sections”, Peter Pabon & So Oishi, ICMC 2016.
+
+
 blosc4sections~.mxo
 (Band-limited oscillator with 4 sections)
 
@@ -23,12 +26,6 @@ blosc4sections~ demo.maxpat - Demo Max patch
 
 blosc4sections~.mxo - Max object
 
-objects Folder - Includes Xcode project and C source code, which is used to develop the above max object.
-Xcode Project:
-/BLOscForMax/objects/projects/msp/blosc4sections/blosc4sections~.xcodeproj
-C source code:
-/BLOscForMax/objects/projects/msp/blosc4sections/blosc4sections~.c 
-
 ============================
 
 Instruction for using object:
@@ -36,7 +33,7 @@ Instruction for using object:
 Activate a section by giving non-zero value to both Lowest or Highest Harmonic Index.
 Deactivate a section by giving “0” to either Lowest or Highest Harmonic Index.
 
-Parameter “Spread Value” corresponds to the power value described in the section 5.1 of our paper (“Raising power in the time domain”)
+Parameter “Spread Value” corresponds to the power value described in the section 5.1 of our ICMC paper (“Raising power in the time domain”)
 There is also a parameter “Spread Compensation” to determine if frequency shifter is applied to compensate the side effect of raising power. When “Spread Compensation” is On (by giving non-zero value), the frequency of lowest harmonic of a section stays same no matter how we change “Spread Value”. If “Spread Compensation” is Off, the frequency of lowest harmonic of a section is dependent on “Spread Value”.
 
 The object has both real (cosine-sum) output and imaginary (sine-sum) output from two outlets. In the demo patch, you can see the waveform from both outlets by checking “Scope On” box.
@@ -121,7 +118,7 @@ Move the pointer on figure “HillenbrandFig4.png”, it changes "Highest Harmon
 
 ============================
 License
-Copyright (c) 2016 So Oishi. All rights reserved.
+Copyright (c) 2016 So Oishi and Peter Pabon. All rights reserved.
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
 

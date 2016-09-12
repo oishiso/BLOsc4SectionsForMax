@@ -1,6 +1,8 @@
 The mechanism of this object is explained in “Additive synthesis with band-limited oscillator sections”, Peter Pabon & So Oishi, ICMC 2016.
 
 
+============================
+
 blosc4sections~.mxo
 (Band-limited oscillator with 4 sections)
 

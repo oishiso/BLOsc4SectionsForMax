@@ -1,10 +1,21 @@
 The mechanism of this object is explained in “Additive synthesis with band-limited oscillator sections”, Peter Pabon & So Oishi, ICMC 2016.
+http://www.icmc2016.com/proceedings.pdf#page=31
 
 
 ============================
 
 blosc4sections~.mxo
 (Band-limited oscillator with 4 sections)
+
+This object can produce waveforms with only up to 4 sections frequency band, but has the following advanced features that are not available in Max objects “blosc6sections~” and “blosc9sections~”:
+
+- Lowest Harmonic Index and Highest Highest Harmonic Index of each section can be smoothly modulated.
+- Users can specify and modulate the spectral Slope of each section.
+- Users can specify and modulate the relative amplitude level of each section.
+- Users can specify spectral Spread Value.
+
+See demo video at:
+http://sooishi.com/engineering/
 
 ============================
 
@@ -127,3 +138,4 @@ This program is free software: you can redistribute it and/or modify it under th
 ============================
 Author
 So Oishi<oishiso@gmail.com>
+sooishi.com
